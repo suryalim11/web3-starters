@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { WagmiProvider } from 'wagmi'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { useAccount, useBalance, useConnect, useDisconnect } from 'wagmi'
